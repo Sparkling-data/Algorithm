@@ -1,0 +1,101 @@
+PART 1 - STACK(스택)
+# 1. 스택이란?
+- '쌓다'라는 의미.
+- 프로그래밍에서 목록 혹은 list에서 접근이 한 쪽에서만 가능한 구조.
+- LIFO(Last-in, First-Out)가 기본 원리.
+- 대표 내장함수 : PUSH, PEEK, POP
+
+# 2. 스택의 구조?
+- BOOK = [BOOK1, BOOK2, BOOK3] 에 BOOK4를 추가하려고 한다.
+'PUSH'에 의해 BOOK 리스트에 BOOK4를 추가됨.
+'PEEK'에 의해 가장 위에있는 함수가 무엇인지 확인 가능. (PEEK : 옅보다) : 확인만 하지 데이터에 손대지 않음.
+'POP' PEEK 함수에서 제일 마지막에 넣은 데이터를 추출하는 함수.
+
+# 3. PYTHON 스택의 구현방법?
+: 대부분 데이터 구현방법은 아래의 3가지 임.
+    1) 직접구현
+    스택의 push와 파이썬 list의 append 함수는 하나의 배열 뒤에 새로운 데이터를 추가함. (push = list.append)
+    파이썬에서 가장 마지막 값 = [-1]사용.
+
+    s = Stack()
+    s.push(1)
+    s.push(5)
+    s.push(10)
+    print("My stack is : ",s)                  #  My stack is : [1, 5, 10]
+    print("Popped value is : ", s.pop())       # Popped value is : 10
+    print("My stack is : ", s)                 # My stack is : [1, 5]
+    print("Peeked value is : :, s.peek())      # Peeked value is : 5
+    print("My stack is : ", s)                 # My stack is : [1, 5]
+
+    2) 이미 구현된 클래스 import
+
+    3) List를 스택으로 구현
+
+    s = []                                     # Python List를 스택으로 활용
+    s.append(1)
+    s.append(5)
+    s.append(10)
+    print("My stack is : ",s)                  #  My stack is : [1, 5, 10]
+    print("Popped value is : ", s.pop())       # Popped value is : 10
+    print("My stack is : ", s)                 # My stack is : [1, 5]
+    print("Peeked value is : :, s[-1])         # Peeked value is : 5
+    print("My stack is : ", s)                 # My stack is : [1, 5]
+
+# 4. 스택의 활용?
+    1) '웹 브라우저'의 이전/다음페이지 기능
+    2) 깊이 우선 탐색(DFS)
+
+
+PART 2 - Queue(큐)
+# 1. 큐란?
+- '일이 처리되기를 기다리는 리스트'라는 의미.
+- 프로그래밍에서 목록 혹은 리스트에서 접근이 양쪽에서 가능한 구조.
+- FIFO(First-in, First-out)가 기본 원리.(선착순 방식 고집)
+- 대표 내장함수 : PUT, PEEK, GET
+
+# 2. 큐의 구조?
+- 컨베이어벨트에 BOX1, BOX2, BOX3을 차례대로 얹고 그 다음 BOX4를 얹는다고 가정.
+'PUSH'는 BOX4를 얹는 것.
+'PEEK'에 의해 가장 처음에 있는 함수가 무엇인지 확인 가능. : 확인만 하지 데이터에 손대지 않음.
+'GET'에 의해 BOX1이 리스트에서 빠져나감. 컨베이어벨트에서 가장 먼저 나온 BOX1를 트럭이 싣고 갔다고 생각.
+
+# 3. PYTHON 큐의 구현방법?
+    1) 직접구현
+    스택과 같은 맥락으로 put = list.append
+
+    q = Queue()
+    q.put(1)
+    q.put(5)
+    q.put(10)
+    print("My queue is : ", q)                  # My queue is : [1, 5, 10]
+    print("Removed value is : q.get())          # Removed value is : 1
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+    print("Peeked value is : ", q.peek())        # Peek value is : 5
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+
+    2) 이미 구현된 클래스 import
+    from queue import Queue                     # Python 으로 구현된 클래스 import
+    q = Queue()
+    q.put(1)
+    q.put(5)
+    q.put(10)
+    print("My queue is : ", q)                  # My queue is : [1, 5, 10]
+    print("Removed value is : q.get())          # Removed value is : 1
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+    print("Peeked value is : ", q.peek())       # Peek value is : 5
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+
+    3) List를 큐로 구현
+    q = []                                      # Python List를 큐로 활용
+    q.append(1)
+    q.append(5)
+    q.append(10)
+    print("My queue is : ", q)                  # My queue is : [1, 5, 10]
+    print("Removed value is : q.pop(0))         # Removed value is : 1
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+    print("Peeked value is : ",q[0])            # Peek value is : 5
+    print("My queue is : ", q)                  # My queue is : [5, 10]
+
+# 4. 큐의 활용?
+    1) 프린터 인쇄 대기열 : 프린터는 처음 명령 받은 것부터 실행함.
+    2) 너비우선탐색(BFS)
