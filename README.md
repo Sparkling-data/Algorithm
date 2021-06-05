@@ -10,6 +10,9 @@
 <br>
 <h2 align='center'> :blue_heart:이 repository들 역시 포크해 갈 수 있습니다:blue_heart: </p>
 <hr>
-<a href = "https://blog.naver.com/gomdorij/222378166335"><h3> :notebook_with_decorative_cover: 1주차 강의노트 : Stack, Queue </a>
+<h3><details>
+<summary> :green_heart: 1주차 :green_heart: </summary>
+<a href = "https://blog.naver.com/gomdorij/222378166335"><h3> :notebook_with_decorative_cover: 강의노트 : Stack, Queue </a>
+<a href = "https://blog.naver.com/gomdorij/222386647914"><h3> :sweat: 접근방식 </a></details>
 <br>
 <br>
