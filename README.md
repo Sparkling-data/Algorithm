@@ -15,4 +15,8 @@
 <a href = "https://blog.naver.com/gomdorij/222378166335"><h3> :notebook_with_decorative_cover: 강의노트 : Stack, Queue </a>
 <a href = "https://blog.naver.com/gomdorij/222386647914"><h3> :sweat: 접근방식 </a></details>
 <br>
+<h3><details>
+<summary> :green_heart: 2주차 :green_heart: </summary>
+<a href = " https://blog.naver.com/gomdorij/222397074903"><h3> :notebook_with_decorative_cover: 강의노트 : 완전탐색, 이분탐색 </a></details> 
+<br>
 <br>
