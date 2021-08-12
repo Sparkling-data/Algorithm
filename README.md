@@ -7,16 +7,18 @@
 <h4>:two: 자신의 풀이를 공유하고 싶다면, 양식은 다른 폴더들과 같이 맞춘다.
 <h4>:three: 문제를 푼 후, 개인 이름폴더에 업로드 한다.</p>
 <h4>:four: 다른 참여자들의 풀이를 본 후 궁금한 점이 생겼다면, 'Pull requests'를 이용한다.</p>
+  
 <br>
+  
 <h2 align='center'> :blue_heart:이 repository들 역시 포크해 갈 수 있습니다:blue_heart: </p>
+  
 <hr>
-<h3><details>
-<summary> :green_heart: 1주차 :green_heart: </summary>
-<a href = "https://blog.naver.com/gomdorij/222378166335"><h3> :notebook_with_decorative_cover: 강의노트 : Stack, Queue </a>
-<a href = "https://blog.naver.com/gomdorij/222386647914"><h3> :sweat: 접근방식 </a></details>
-<br>
-<h3><details>
-<summary> :green_heart: 2주차 :green_heart: </summary>
-<a href = "https://blog.naver.com/gomdorij/222397074903"><h3> :notebook_with_decorative_cover: 강의노트 : 완전탐색, 이분탐색 </a></details> 
-<br>
+  
+## :green_heart: 1회차 :green_heart:
+<h4> <a href = "https://github.com/Sparkling-data/Algorithm/tree/main/1%ED%9A%8C%EC%B0%A8"><h3> 1회차 폴더 바로가기 </a>
+  
+<br><br>
+ 
+## :green_heart: 2회차 :green_heart:
+ 
 <br>
